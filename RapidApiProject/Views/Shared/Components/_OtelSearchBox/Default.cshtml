@@ -1,0 +1,48 @@
+﻿<div class="search_box">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="search_box_container d-flex flex-row align-items-center justify-content-start">
+                    <div class="search_form_container">
+                        <form method="post" id="search_form" class="search_form">
+                            <div class="d-flex flex-lg-row flex-column align-items-center justify-content-start">
+                                <ul class="search_form_list d-flex flex-row align-items-center justify-content-start flex-wrap">
+                                    <!-- Check in Input -->
+                                    <li class="search_dropdown d-flex flex-row align-items-center justify-content-start">
+                                        <label for="check_in">Check in</label>
+                                        <input type="text" id="check_in" name="check_in" placeholder="Select or enter date">
+                                    </li>
+
+                                    <!-- Check out Input -->
+                                    <li class="search_dropdown d-flex flex-row align-items-center justify-content-start">
+                                        <label for="check_out">Check out</label>
+                                        <input type="text" id="check_out" name="check_out" placeholder="Select or enter date">
+                                    </li>
+
+                                    <!-- Guests Input -->
+                                    <li class="search_dropdown d-flex flex-row align-items-center justify-content-start">
+                                        <label for="guests">Guests</label>
+                                        <input type="number" id="guests" name="guests" min="1" max="5" placeholder="Enter number of guests">
+                                    </li>
+
+                                    <!-- Children Input -->
+                                    <li class="search_dropdown d-flex flex-row align-items-center justify-content-start">
+                                        <label for="children">Children</label>
+                                        <input type="number" id="children" name="children" min="0" max="5" placeholder="Enter number of children">
+                                    </li>
+
+                                    <!-- Rooms Input -->
+                                    <li class="search_dropdown d-flex flex-row align-items-center justify-content-start">
+                                        <label for="rooms">Rooms</label>
+                                        <input type="number" id="rooms" name="rooms" min="1" max="5" placeholder="Enter number of rooms">
+                                    </li>
+                                </ul>
+                                <button type="submit" class="search_button">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -27,3 +27,4 @@ Rapid API Projesi, .NET Core 6.0 kullanılarak geliştirilmiş bir web uygulamas
 - 🤖 **.NET Core 6.0**: Web uygulamasının temel çerçevesi olarak kullanıldı. ✅  
 - 📡 **Rapid API**: Veri çekme ve API üzerinden veri tüketimi için kullanıldı. ✅  
 - 🔄 **View Component**: Dinamik ve yeniden kullanılabilir arayüz bileşenleri oluşturmak için kullanıldı. ✅  
+
